@@ -28,7 +28,9 @@ const CategorySlider = () => {
               alt="category"
               className="rounded-lg border-2 shadow-2xl"
             />
-            <p className="text-slate-700 w-[76px]">Fruits & Vegetables</p>
+            <p className="text-slate-700 w-[76px] hover:text-primary hover:cursor-pointer">
+              Fruits & Vegetables
+            </p>
           </SwiperSlide>
           <SwiperSlide>
             <Image
@@ -38,7 +40,9 @@ const CategorySlider = () => {
               alt="category"
               className="rounded-lg border-2 shadow-2xl p-2"
             />
-            <p className="text-slate-700 w-[76px]">Meats & Seafood</p>
+            <p className="text-slate-700 w-[76px] hover:text-primary hover:cursor-pointer">
+              Meats & Seafood
+            </p>
           </SwiperSlide>
           <SwiperSlide className="flex flex-col items-center justify-center">
             <Image
@@ -48,7 +52,9 @@ const CategorySlider = () => {
               alt="category"
               className="rounded-lg border-2 shadow-2xl p-2"
             />
-            <p className="text-slate-700 w-[76px]">Breakfast & Dairy</p>
+            <p className="text-slate-700 w-[76px] hover:text-primary hover:cursor-pointer">
+              Breakfast & Dairy
+            </p>
           </SwiperSlide>
           <SwiperSlide>
             <Image
@@ -58,7 +64,9 @@ const CategorySlider = () => {
               alt="category"
               className="rounded-lg border-2 shadow-2xl p-2"
             />
-            <p className="text-slate-700 w-[76px]">Breads & Bakery</p>
+            <p className="text-slate-700 w-[76px] hover:text-primary hover:cursor-pointer">
+              Breads & Bakery
+            </p>
           </SwiperSlide>
           <SwiperSlide>
             <Image
@@ -68,7 +76,9 @@ const CategorySlider = () => {
               alt="category"
               className="rounded-lg border-2 shadow-2xl p-2"
             />
-            <p className="text-slate-700 w-[76px]">Beverages</p>
+            <p className="text-slate-700 w-[76px] hover:text-primary hover:cursor-pointer">
+              Beverages
+            </p>
           </SwiperSlide>
           <SwiperSlide>
             <Image
@@ -78,7 +88,9 @@ const CategorySlider = () => {
               alt="category"
               className="rounded-lg border-2 shadow-2xl p-2"
             />
-            <p className="text-slate-700 w-[76px]">Frozen Foods</p>
+            <p className="text-slate-700 w-[76px] hover:text-primary hover:cursor-pointer">
+              Frozen Foods
+            </p>
           </SwiperSlide>
           <SwiperSlide>
             <Image
@@ -88,7 +100,9 @@ const CategorySlider = () => {
               alt="category"
               className="rounded-lg border-2 shadow-2xl p-2"
             />
-            Biscuits & Snacks
+            <p className="text-slate-700 w-[76px] hover:text-primary hover:cursor-pointer">
+              Biscuits & Snacks
+            </p>
           </SwiperSlide>
           <SwiperSlide>
             <Image
@@ -98,7 +112,9 @@ const CategorySlider = () => {
               alt="category"
               className="rounded-lg border-2 shadow-2xl p-2"
             />
-            <p className="text-slate-700 w-[76px]">Grocery & Staples</p>
+            <p className="text-slate-700 w-[76px] hover:text-primary hover:cursor-pointer">
+              Grocery & Staples
+            </p>
           </SwiperSlide>
           <SwiperSlide>
             <Image
@@ -108,7 +124,9 @@ const CategorySlider = () => {
               alt="category"
               className="rounded-lg border-2 shadow-2xl p-2"
             />
-            Baby & Pregnancy
+            <p className="text-slate-700 w-[76px] hover:text-primary hover:cursor-pointer">
+              Baby & Pregnancy
+            </p>
           </SwiperSlide>
           <SwiperSlide>
             <Image
@@ -118,7 +136,9 @@ const CategorySlider = () => {
               alt="category"
               className="rounded-lg border-2 shadow-2xl p-2"
             />
-            <p className="text-slate-700 w-[76px]">HealthCare</p>
+            <p className="text-slate-700 w-[76px] hover:text-primary hover:cursor-pointer">
+              HealthCare
+            </p>
           </SwiperSlide>
         </Swiper>
       </div>
