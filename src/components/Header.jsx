@@ -16,8 +16,7 @@ const Header = () => {
       </div>
       {/* search section */}
       <Search />
-      {/* login and registration section */}
-
+      {/* login and registration section */}fsd
       <div className="flex items-center gap-5">
         <div className="flex items-center gap-3">
           <Link href={"/login"} className="hover:text-primary">
@@ -29,7 +28,6 @@ const Header = () => {
           </Link>
         </div>
       </div>
-
       {/* addTocart and Wishlist section */}
       <div className="flex items-center gap-8">
         {/* Wishlist */}
@@ -37,7 +35,7 @@ const Header = () => {
           <span className="text-white bg-[#DC2626] w-6 h-6 rounded-full absolute flex items-center justify-center -top-[10px] -right-[15] z-50">
             3
           </span>
-          <FaRegHeart size={25} className="text-gray-700" />
+          <FaRegHeart size={25} className="text-gray-700 hover:text-primary" />
         </Link>
 
         {/* Add to Cart */}
@@ -45,7 +43,10 @@ const Header = () => {
           <span className="text-white bg-[#DC2626] w-6 h-6 rounded-full absolute flex items-center justify-center -top-[10px] -right-[15] z-50">
             3
           </span>
-          <IoBagOutline size={25} className="text-gray-700" />
+          <IoBagOutline
+            size={25}
+            className="text-gray-700 hover:text-primary"
+          />
         </Link>
       </div>
     </header>
