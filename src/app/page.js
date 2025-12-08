@@ -1,11 +1,13 @@
-"use client"
+"use client";
 
+import CategorySlider from "@/components/CategorySlider";
 import HomeSlider from "@/components/HomeSlider";
 
 export default function Home() {
   return (
     <main className="">
-      <HomeSlider/>
+      <HomeSlider />
+      <CategorySlider />
       this is home page
     </main>
   );
