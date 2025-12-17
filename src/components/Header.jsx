@@ -16,7 +16,7 @@ const Header = () => {
       </div>
       {/* search section */}
       <Search />
-      {/* login and registration section */}fsd
+      {/* login and registration section */}
       <div className="flex items-center gap-5">
         <div className="flex items-center gap-3">
           <Link href={"/login"} className="hover:text-primary">
