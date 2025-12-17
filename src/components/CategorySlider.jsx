@@ -21,7 +21,7 @@ const CategorySlider = () => {
     { image: "/category10.png", title: "Health Care" },
   ];
   return (
-    <div className="py-4 my-4 border-2 px-8 w-full">
+    <div className="py-4 my-4 border-2 px-8 w-full bg-white">
       <div className="  w-full">
         <Swiper
           slidesPerView={10}
@@ -39,7 +39,7 @@ const CategorySlider = () => {
                 width={100}
                 height={100}
                 alt="category"
-                className="rounded-lg border-2 shadow-2xl p-6 transition group-hover:scale-105"
+                className="rounded-lg border-2  p-6 transition group-hover:scale-105"
               />
               <p className="text-xs text-slate-700 group-hover:text-primary  ">
                 {data.title}
