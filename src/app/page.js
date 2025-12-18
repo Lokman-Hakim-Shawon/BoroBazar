@@ -2,6 +2,7 @@
 
 import Banner from "@/components/Banner";
 import CategorySlider from "@/components/CategorySlider";
+import Footer from "@/components/Footer";
 import HomeSlider from "@/components/HomeSlider";
 import PopularProduct from "@/components/PopularProduct";
 import CustomProduct from "@/components/shared/CustomProduct";
@@ -20,7 +21,7 @@ export default function Home() {
       <CustomProduct heading="Latest products" latestProduct={data} />
       <CustomProduct heading="Featured products" latestProduct={data} />
       <CustomProduct heading="Breakfast & Dairy" latestProduct={data} />
-      this is home page
+      <Footer />
     </main>
   );
 }
