@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Card = ({ image, title, currentPrice, previousPrice }) => {
   return (
-    <div className="shadow-lg px-4 group">
+    <div className="shadow-lg px-4 group bg-white py-4 rounded-lg">
       <Image
         src={image}
         alt="image"
