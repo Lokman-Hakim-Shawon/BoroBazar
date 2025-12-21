@@ -2,3 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Chrome, Edge, Safari */
+.custom-scroll::-webkit-scrollbar {
+    width: 4px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+    background: #02B290;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+    background-color: #02B290;
+    border-radius: 20px;
+}
+
+/* Firefox */
+.custom-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: #02B290 #e5e7eb;
+}

@@ -11,7 +11,7 @@ import useApi from "@/components/shared/useApi";
 export default function Home() {
   const { data } = useApi("/latest.json");
   return (
-    <main className="bg-[#f1f1f1] py-4">
+    <main className="bg-[#f1f1f1] py-4 ">
       <HomeSlider />
       <CategorySlider />
       <PopularProduct />
